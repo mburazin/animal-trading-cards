@@ -1,0 +1,45 @@
+/* width = content + padding (both sides) + borders (both sides) */
+.animal-card, .animal-info {
+  box-sizing: border-box;
+}
+
+.animal-card {
+  border: solid 1px #777;
+  width: 322px; /* 1px + 10px + 300px + 10px + 1px */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ABABAB;
+  box-shadow: 5px 5px 5px #BBBBBB;
+}
+
+h3 {
+  margin: 10px 0 20px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+img {
+  margin: 0 0 10px;
+  border-radius: 5px; /* rounded image corners */
+}
+
+.animal-info {
+  border: solid 1px #9c9a9a;
+  width: 300px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #dbdbdb;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.interesting-fact {
+  font-style: italic;
+}
+
+.properties-list {
+  list-style: none;
+  padding: 0;
+}
+
+.label {
+  font-weight: bold;
+}
